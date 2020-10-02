@@ -27,8 +27,6 @@ If no such number exists, return True:
 def find_largest_smaller_than(nums, xnumber):
     """Find largest number in sorted list that is smaller than given number.
     [-5, -2, 8, 12, 32], 10"""
-
-    
     new = []
     for num in nums:
         if num < xnumber:
